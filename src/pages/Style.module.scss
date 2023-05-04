@@ -1,0 +1,21 @@
+.container {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+
+    .post {
+        h1 {
+            padding: 10px;
+            font-size: 15px;
+            background-color: rgb(245, 128, 128);
+            color: rgb(0, 0, 0);
+        }
+        h2{
+            font-size: 10px;
+            padding: 10px;
+        }
+    }
+}
